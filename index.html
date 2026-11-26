@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HQ Privacy Policy</title>
+  <style>
+    body { margin: 0; font: 18px/1.55 Georgia, "Times New Roman", serif; color: #1a1a1a; background: #fff; }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 0.5rem; }
+    p, li { margin: 0.4rem 0; }
+    a { color: #1a1a1a; }
+    .meta { color: #444; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>HQ Privacy Policy</h1>
+    <p class="meta">Effective 26 November 2026</p>
+    <p>This policy describes HQ, a personal app operated by Fiel Violeta. HQ posts a video to a Facebook Page when the person using it presses Confirm. The contact address for this policy is <a href="mailto:fielv@tripex.io">fielv@tripex.io</a>.</p>
+
+    <h2>What HQ receives from Facebook</h2>
+    <p>When you connect a Facebook account, HQ receives:</p>
+    <ul>
+      <li>Your Facebook user id.</li>
+      <li>The name and id of each Facebook Page you choose to share.</li>
+      <li>A Page access token for the Page used to post.</li>
+    </ul>
+    <p>HQ asks Facebook for permission to list the Pages you manage, read Page content, and create posts. Those permissions are <code>pages_show_list</code>, <code>pages_read_engagement</code>, and <code>pages_manage_posts</code>.</p>
+
+    <h2>How HQ uses that information</h2>
+    <p>HQ uses it to show the connected Page name and to publish one Reel after you press Confirm. The Reel is public on that Page and is labeled as made with AI. The caption is the title and description already saved for that clip. HQ does not post from chat, and it does not post unless you press Confirm.</p>
+    <p>HQ does not sell this information and does not use it for advertising. HQ sends it to Meta so Meta can publish the Reel. The Page token is stored in the operator’s own Supabase database. No other company receives it.</p>
+
+    <h2>Where it is stored</h2>
+    <p>The Page token is encrypted before it is saved in Supabase. A local record of the post, including the clip, title, time, and link, and the video file itself, stay on the computer where HQ runs.</p>
+    <p>The token and the Page record stay until you disconnect Facebook in HQ or until you ask for them to be deleted. The video file stays on that computer until the clip is removed there.</p>
+
+    <h2 id="deletion">How to delete your information</h2>
+    <p>You can delete the Facebook information HQ stores in any of these ways:</p>
+    <ol>
+      <li>In HQ, open the Connect page and press Disconnect. HQ deletes the stored Page token and Page record, and asks Facebook to remove HQ’s permission.</li>
+      <li>On Facebook, open Settings and privacy, then Settings, then Business integrations, select HQ, and remove it. Then email <a href="mailto:fielv@tripex.io">fielv@tripex.io</a> so the stored copy can be deleted as well.</li>
+      <li>Email <a href="mailto:fielv@tripex.io">fielv@tripex.io</a> with the subject “Delete my HQ Facebook data” and the Facebook account to delete. The stored Page token and Page record will be deleted.</li>
+    </ol>
+    <p>To remove the video from the computer where HQ runs, delete that clip in HQ.</p>
+
+    <h2>Contact</h2>
+    <p>Fiel Violeta<br><a href="mailto:fielv@tripex.io">fielv@tripex.io</a></p>
+    <p><a href="terms/">Terms of Service</a></p>
+  </main>
+</body>
+</html>
